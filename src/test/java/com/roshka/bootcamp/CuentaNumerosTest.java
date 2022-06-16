@@ -15,4 +15,5 @@ public class CuentaNumerosTest {
         assertEquals(new ArrayList<Long>(),                 CuentaNumeros.findAll(84, 4));
         assertEquals(Arrays.asList(123L, 116999L, 566666L), CuentaNumeros.findAll(35, 6));
     }
+
 }
